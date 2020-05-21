@@ -1,0 +1,19 @@
+/* 'Use display:flex on two elements, then add additional CSS properties 
+    to achieve the desired layout.' */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* Limit items per row to 3 */
+.shop {
+    width: 33%;
+}
