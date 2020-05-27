@@ -1,9 +1,20 @@
 /* 'Use display:flex on two elements, then add additional CSS properties 
     to achieve the desired layout.' */
 
-header {
+body {
+    background-image: linear-gradient(to right, rgb(107, 107, 107), rgb(30, 30, 30));
+    color: rgb(41, 20, 0);
+    font-family: "Andale Mono", Monaco, monospace;
+}
+
+.pageHeader {
     display: flex;
     justify-content: center;
+    border: 3px groove rgb(211, 163, 101);
+    background-color: rgb(240, 213, 179);
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: .5em 0;
 }
 
 .list {
@@ -13,7 +24,11 @@ header {
     width: 100%;
 }
 
-/* Limit items per row to 3 */
 .shop {
     width: 33%;
+    border: 2px groove rgb(211, 163, 101);
+    background-color: rgb(240, 213, 179);
+    justify-content: center;
 }
+
+
