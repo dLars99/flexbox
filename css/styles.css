@@ -2,8 +2,8 @@
     to achieve the desired layout.' */
 
 body {
-    background-image: linear-gradient(to right, rgb(107, 107, 107), rgb(30, 30, 30));
-    color: rgb(41, 20, 0);
+    background-image: linear-gradient(rgb(238, 226, 211), rgb(185, 185, 185));
+    color: rgb(47, 17, 5);
     font-family: "Andale Mono", Monaco, monospace;
 }
 
@@ -11,7 +11,8 @@ body {
     display: flex;
     justify-content: center;
     border: 3px groove rgb(211, 163, 101);
-    background-color: rgb(240, 213, 179);
+    border-radius: 30px;
+    background-color: rgb(238, 211, 178);
     font-size: 2.5em;
     font-weight: 700;
     padding: .5em 0;
@@ -25,10 +26,59 @@ body {
 }
 
 .shop {
-    width: 33%;
-    border: 2px groove rgb(211, 163, 101);
-    background-color: rgb(240, 213, 179);
+    width: 25%;
+    border: 3px groove rgb(211, 163, 101);
+    background-color: rgb(238, 211, 178);
     justify-content: center;
+    margin: 2rem auto;
+    border-radius: 30px;
+    padding: .5em;
+    text-align: center;
+    word-wrap: normal;
 }
 
+.shop h3 {
+    font-size: 2em;
+    text-align: center;
+    margin: .2em 0;
+    color: rgb(63, 18, 0);
+}
+
+.shop p {
+    font-family: Verdana, Arial, sans-serif;
+    margin: .5em 0 .6em;
+    font-size: .9em;
+}
+
+.phone__icon {
+    width: 1.2em;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: .1em;
+}
+
+.phone__icon:hover {
+    opacity: .6;
+}
+
+.shop__link {
+    border: 2px ridge rgb(211, 163, 101);
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(138, 55, 7), rgb(77, 32, 6));
+    color: rgb(255, 230, 210);
+    text-decoration: none;
+    padding: .3em .5em;
+    display: block;
+    width: 60%;
+    margin: 1em auto .3em;
+}
+.shop__link:hover {
+    color: rgb(63, 18, 0);
+    background-image:linear-gradient(rgb(238, 211, 178), rgb(238, 192, 136));
+}
+
+.closed {
+    color: rgb(195, 39, 0);
+}
 
